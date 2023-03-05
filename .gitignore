@@ -1,0 +1,22 @@
+﻿# Build 파일 관련 항목
+dist/
+
+# 의존성 모듈 관련 항목
+node_modules/
+
+# 이벤트 스토어(EventStore) 관련 항목
+eventstore/
+
+# 프로젝트 설정 관련 항목
+nest-cli.json
+tsconfig.build.json
+tsconfig.json
+
+# 패키지 관련 항목
+package-lock.json
+package.json
+yarn.lock
+
+# 기타 항목
+generator.sh
+README.md

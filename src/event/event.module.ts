@@ -1,0 +1,16 @@
+import { Global, Module } from '@nestjs/common';
+import { PubSub } from 'graphql-subscriptions';
+
+@Global()
+@Module({
+  imports: [],
+  controllers: [],
+  providers: [
+    {
+      provide: 'PUB_SUB',
+      useValue: new PubSub(),
+    },
+  ],
+  exports: ['PUB_SUB'],
+})
+export class EventModule {}
