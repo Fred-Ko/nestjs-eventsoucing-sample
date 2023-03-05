@@ -21,9 +21,7 @@ yarn.lock
 generator.sh
 README.md
 
+# 환경 변수 관련 항목
 .env
 .env.yaml
-
-env.json
-
 .env.json
