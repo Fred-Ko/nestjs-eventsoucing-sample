@@ -20,3 +20,5 @@ yarn.lock
 # 기타 항목
 generator.sh
 README.md
+
+.env
