@@ -22,3 +22,8 @@ generator.sh
 README.md
 
 .env
+.env.yaml
+
+env.json
+
+.env.json
